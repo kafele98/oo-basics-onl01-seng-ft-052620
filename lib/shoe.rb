@@ -15,6 +15,14 @@ class Shoe
     @color 
   end 
   
+  def size=(size)
+    @size=size
+  end 
+  
+  def size 
+    @size 
+  end 
+  
 end 
 
 shoe = Shoe.new("Nike")
