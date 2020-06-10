@@ -23,6 +23,8 @@ class Shoe
     @size 
   end 
   
+  attr_accessor :material 
+  
 end 
 
 shoe = Shoe.new("Nike")
