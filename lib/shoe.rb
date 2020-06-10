@@ -29,6 +29,7 @@ class Shoe
   
   def cobble
     puts "Your shoe is as good as new!"
+    shoe.condition="new"
   end 
 
   
@@ -36,4 +37,3 @@ end
 
 shoe = Shoe.new("Nike")
 shoe.condition="tattered"
-shoe.condition="new"
