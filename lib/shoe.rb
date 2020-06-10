@@ -27,7 +27,7 @@ class Shoe
   
   attr_accessor :condition 
   
-  def cobble (array)
+  def cobble (condition)
     if condition=new 
       puts "Your shoe is as good as new!"
     end
