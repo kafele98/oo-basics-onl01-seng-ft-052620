@@ -36,3 +36,4 @@ end
 
 shoe = Shoe.new("Nike")
 shoe.condition="tattered"
+shoe.condition="new"
